@@ -12,6 +12,7 @@ body{
   background: #fff;
   margin: 2%;
   padding :1%;
+  border:2px solid #000;
 }
 
 .content{
@@ -20,7 +21,7 @@ body{
    background: #fff;
    margin: 2%;
    padding: 1%;
-   border2px solid #000;
+   border:2px solid #000;
    border-radius: 20px;
 }
 img{
@@ -35,5 +36,34 @@ h1,#roll{
   text-align:center;
   text-transform:capitalize;
   color: red;
+}
+a{
+  text-decoration: none;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+.flex-parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+.profile{
+  width: 100%;
+  height: auto;
+  background: blue;
+  margin: 2%;
+  padding :1%;
+  border: 2px solid #000;
+  border-radius: 20px;
+}
 
+.content{
+   width: 100%;
+   height: auto;
+   background: #fff;
+   margin: 2%;
+   padding: 1%;
+   border:2px solid #000;
+   border-radius: 20px;
+}
 }
